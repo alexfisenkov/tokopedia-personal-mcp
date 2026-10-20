@@ -1,0 +1,9 @@
+{
+  "records": [
+    {"kind":"order","id":"demo-order","observedAt":"2026-10-01T08:00:00Z","status":"Dikirim","totalIdr":50000,"items":[{"title":"Synthetic USB cable","quantity":2,"unitPriceIdr":25000}]},
+    {"kind":"shipment","id":"demo-shipment","orderId":"demo-order","observedAt":"2026-10-01T08:00:00Z","status":"Dalam perjalanan","courier":"Synthetic courier","events":[{"at":"2026-10-01T07:00:00Z","status":"Collected"}]},
+    {"kind":"transaction","id":"demo-payment","orderId":"demo-order","observedAt":"2026-10-01T08:00:00Z","type":"payment","amountIdr":50000,"currency":"IDR","status":"Paid"},
+    {"kind":"chat","id":"demo-chat","observedAt":"2026-10-01T08:00:00Z","shopName":"Synthetic Shop","messages":[{"id":"demo-message","direction":"incoming","text":"Synthetic example only"}]},
+    {"kind":"product","id":"demo-product","observedAt":"2026-10-01T08:00:00Z","title":"Synthetic USB cable","priceIdr":25000,"url":"https://www.tokopedia.com/example/synthetic-cable"}
+  ]
+}
